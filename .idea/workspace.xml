@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f59b36-e2d6-469a-a9d7-cbfee00279f0" name="更改" comment="tp_gnn_ppo">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_ablations.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_ablations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_ppo_only.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_ppo_only.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_pressure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_pressure_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +45,13 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/桌面/毕业/小论文/tp_gnn_ppo",
+    "last_opened_file_path": "D:/桌面/毕业/小论文/tp_gnn_ppo/assets",
     "settings.editor.selected.configurable": "vcs.Subversion"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\桌面\毕业\小论文\tp_gnn_ppo\assets" />
       <recent name="D:\桌面\毕业\小论文\tp_gnn_ppo" />
     </key>
   </component>
@@ -82,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772166942570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tp_gnn_ppo">
+      <option name="closed" value="true" />
+      <created>1772169103759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772169103759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
