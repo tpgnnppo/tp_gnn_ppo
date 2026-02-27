@@ -19,8 +19,8 @@ def run_ablation_experiment(ablation_name, modify_cfg_func, enforce_trust_flag=T
     exp_dir = f"ABLATION_{ablation_name.replace('/', '_').replace(' ', '_')}"
     ckpt_dir = f"checkpoints/{exp_dir}/main_seed42"
 
-    best_ckpt = os.path.join(ckpt_dir, "best_comp.pt")
-    final_ckpt = os.path.join(ckpt_dir, "ep0250.pt")
+    best_ckpt = os.path.join(ckpt_dir, "your ckpt_path")
+    final_ckpt = os.path.join(ckpt_dir, "your ckpt_path")
 
     target_ckpt = None
     if os.path.exists(best_ckpt):
@@ -88,14 +88,12 @@ def disable_curriculum():
 # 实验 2: w/o trust mask (无信任掩码拦截)
 # ==========================================
 def keep_curriculum_but_no_mask():
-    # 💡 听你的！严格对齐主实验参数：0.66起步，20轮预热，100轮爬升。
-    # 保证在第 120 轮准时到达 0.72，并在地狱难度下经受后 130 轮的毒打！
+
     Config.TRUST_ENFORCE_WARMUP_EP = 20
     Config.TRUST_ENFORCE_RAMP_EP = 100
     Config.TRUST_THRESHOLD_START = 0.66
     Config.TRUST_THRESHOLD = 0.72
 
 if __name__ == "__main__":
-    # run_ablation_experiment("w/o curriculum", disable_curriculum, enforce_trust_flag=True)
     run_ablation_experiment("w/o trust mask", keep_curriculum_but_no_mask, enforce_trust_flag=False)
 

@@ -11,9 +11,9 @@ from run_baselines import run_baselines
 def main():
     loads = [80, 100, 120, 140, 160]
 
-    main_ckpt = "checkpoints/TP_GNN_PPO_MAIN_ULTIMATE/main_seed42/best_comp.pt"
+    main_ckpt = "your ckpt_path"
     if not os.path.exists(main_ckpt):
-        main_ckpt = "checkpoints/TP_GNN_PPO_MAIN_ULTIMATE/main_seed42/ep0250.pt"
+        main_ckpt = "your ckpt_path"
 
     print(f"🔍 锁定 TP-GNN-PPO 权重路径: {main_ckpt}")
 

@@ -65,22 +65,7 @@ def build_state(env: PhysicalNetwork,
                 thr: float,
                 base_mask: np.ndarray,
                 trust_mask: np.ndarray) -> np.ndarray:
-    """
-    Enhanced fixed-size handcrafted state (no GNN), but includes candidate-set statistics
-    to avoid over-compression.
 
-    Parts:
-      A) Global stats over ALL nodes:
-         mean/std/min of cpu, mem, trust + fraction trusted (10 dims)
-      B) Stats over FEASIBLE candidate set (base_mask) (6 dims):
-         |A_base|/N, cpu_mean, mem_mean, trust_mean, trust_min, cpu_min
-      C) Stats over TRUST-feasible set (trust_mask) (4 dims):
-         |A_tr|/N, cpu_mean, mem_mean, trust_mean
-      D) Last node features: cpu, mem, trust (3 dims)
-      E) Request context: cpu_req, mem_req, bw, progress, delay_ratio, thr (6 dims)
-
-    Total dims: 10 + 6 + 4 + 3 + 6 = 29
-    """
     cpu = node_feats_np[:, 0].astype(np.float32)
     mem = node_feats_np[:, 1].astype(np.float32)
     tr  = trust_scores_np.astype(np.float32)

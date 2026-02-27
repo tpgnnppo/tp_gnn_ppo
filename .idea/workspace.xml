@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f59b36-e2d6-469a-a9d7-cbfee00279f0" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tp_gnn_ppo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/Config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/network_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ppo_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/tp_gnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_ablations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_baselines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_ppo_only.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_pressure_test.py" afterDir="false" />
+    <list default="true" id="c1f59b36-e2d6-469a-a9d7-cbfee00279f0" name="更改" comment="tp_gnn_ppo">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_ablations.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_ablations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_ppo_only.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_ppo_only.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_pressure_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_pressure_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tpgnnppo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tpgnnppo/tp_gnn_ppo.git",
+    "accountId": "301a2912-726d-414b-8e3c-17b95f3056f6"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -43,9 +44,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/桌面/毕业/小论文/tp_gnn_ppo"
+    "last_opened_file_path": "D:/桌面/毕业/小论文/tp_gnn_ppo",
+    "settings.editor.selected.configurable": "vcs.Subversion"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,6 +63,9 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\请叫我奈斯\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="c1f59b36-e2d6-469a-a9d7-cbfee00279f0" name="更改" comment="" />
@@ -68,6 +74,30 @@
       <option name="presentableId" value="Default" />
       <updated>1772163466761</updated>
     </task>
+    <task id="LOCAL-00001" summary="tp_gnn_ppo">
+      <option name="closed" value="true" />
+      <created>1772166942570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772166942570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tp_gnn_ppo" />
+    <option name="LAST_COMMIT_MESSAGE" value="tp_gnn_ppo" />
   </component>
 </project>

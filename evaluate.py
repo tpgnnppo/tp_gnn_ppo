@@ -212,7 +212,7 @@ def evaluate_model(ckpt_path: str, num_eval_episodes: int = 5, requests_per_ep: 
 
 
 if __name__ == "__main__":
-    CKPT_PATH = r"D:\tp_gnn_oo\checkpoints\TP_GNN_PPO_MAIN_ULTIMATE\main_seed42\ep0800.pt"
+    CKPT_PATH = "your ckpt_path"
 
     if not os.path.exists(CKPT_PATH):
         print(f"❌ 找不到权重文件：{CKPT_PATH}，请确认训练是否完成，或路径是否正确！")
